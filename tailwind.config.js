@@ -4,6 +4,13 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './views/**/*.{js,ts,jsx,tsx,mdx}',
+    './facilities/**/*.{js,ts,jsx,tsx,mdx}',
+    './rooms/**/*.{js,ts,jsx,tsx,mdx}',
+    './contact/**/*.{js,ts,jsx,tsx,mdx}',
+    './single-room/**/*.{js,ts,jsx,tsx,mdx}',
+    './booking/**/*.{js,ts,jsx,tsx,mdx}',
+    './policy/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {

@@ -1,8 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/font.ttf");
+}
+
+* {
+  font-family: "Montserrat";
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.grad {
+  background: url("/images/background-home.png"), rgba(20, 39, 74, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.facility {
+  background: url("/images/facility.png");
+  background: linear-gradient(rgba(20, 39, 74, 1));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.room {
+  background: url("/images/background-room.png"), rgba(20, 39, 74, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +57,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
