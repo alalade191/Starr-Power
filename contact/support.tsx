@@ -5,7 +5,7 @@ const Support = () => {
   return (
     <div className="w-full">
       <div className="w-[80%] mx-auto">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 pt-[30px]">
           <h3
             style={{ fontFamily: "Inter" }}
             className="font-bold text-[#14274A] text-3xl"
