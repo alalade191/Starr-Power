@@ -3,7 +3,7 @@ import Policy from "@/policy/policy";
 
 export default function Contact() {
   return (
-    <div>
+    <div id="policy">
       <Policy />
       <PolicyHeroSection />
     </div>

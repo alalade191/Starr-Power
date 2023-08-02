@@ -2,6 +2,7 @@ import Sliding from "@/components/carousel";
 import DoubleRoom from "@/components/double-carousel";
 import TwinsRoom from "@/components/twins";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface Iroom {
@@ -60,12 +61,14 @@ const RoomFeatures = () => {
               </div>
               <div className="w-full h-[90px] border-b-[2px] border-x-[2px] border-[rgba(20, 39, 74, 0.30)] flex items-center justify-between px-6 rounded-b-md">
                 <div className="flex items-center gap-2">
-                  <Image
-                    height={25}
-                    width={25}
-                    src={"/images/select.png"}
-                    alt="view"
-                  />
+                  <Link href="booking-room">
+                    <Image
+                      height={25}
+                      width={25}
+                      src={"/images/select.png"}
+                      alt="view"
+                    />
+                  </Link>
                   <p className="font-bold text-lg text-[#14274A]">
                     VIEW ROOM DETAILS
                   </p>

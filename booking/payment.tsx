@@ -4,6 +4,7 @@ import React from "react";
 import { TimeInput } from "@mantine/dates";
 import { Select } from "@mantine/core";
 import Time from "@/components/time-input";
+import Link from "next/link";
 
 const Payment = () => {
   return (
@@ -148,7 +149,10 @@ const Payment = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#E0B973] text-white font-bold text-lg px-3 py-2 rounded-md text-center max-w-[470px]">
+            <Link
+              href="checkout"
+              className="bg-[#E0B973] text-white font-bold text-lg px-3 py-2 rounded-md text-center max-w-[470px]"
+            >
               <span className="flex items-center justify-center gap-3">
                 Pay with{" "}
                 <Image
@@ -158,7 +162,7 @@ const Payment = () => {
                   alt=""
                 />{" "}
               </span>
-            </div>
+            </Link>
           </div>
         </div>
         {/* selection */}

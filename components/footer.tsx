@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -21,8 +22,13 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col gap-6">
-          <p className="font-normal text-sm text-white">Contact</p>
-          <p className="font-normal text-sm text-white">Policies</p>
+          <Link href="/contact-us">
+            <p className="font-normal text-sm text-white">Contact</p>
+          </Link>
+
+          <Link href="/policy">
+            <p className="font-normal text-sm text-white">Policies</p>
+          </Link>
           <p className="font-normal text-sm text-white">Terms & Condition</p>
         </div>
         <div className="flex flex-col gap-6">
